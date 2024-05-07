@@ -277,8 +277,8 @@ public class GTAVWebhookScript : Script
                     for (int i = 0; i < num; i++)
                     {
                         Logger.Log("Spawn Attacker");
-                        Attacker npc = new Attacker(command.username, false);
-                        npcList.Add(npc);
+                        Attacker npc = new Attacker(command.nickname, false);
+                        npcList.Add(boar);
                     }
 
                     break;
